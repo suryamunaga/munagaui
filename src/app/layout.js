@@ -4,7 +4,7 @@ import './globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'react-toastify/dist/ReactToastify.css';
 import { appStore } from '@/store/appStore'
-import { Provider, useSelector } from 'react-redux'
+import { Provider } from 'react-redux'
 
 import LayoutWrapper from './layoutWrapper'
 const inter = Inter({ subsets: ['latin'] })
